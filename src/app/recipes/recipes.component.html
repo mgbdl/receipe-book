@@ -1,9 +1,9 @@
 <br>
 <div class="row">
-  <div class="col-md-5">
+  <div class="col">
     <app-recipe-list (recipeSelected)="selectedRecipe = $event"></app-recipe-list>
   </div>
-  <div class="col-md-7">
+  <div class="col">
     <app-recipe-detail [selectedRecipe]="selectedRecipe"></app-recipe-detail>
   </div>
 </div>
